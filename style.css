@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: black;
+    font-family: 'corbel' cursive;
+}
+
+p {font-size: 15px;}
+h2 {font-size: 30px;}
+h5 {padding: .2em;}
+.small-p {font-size: 12px;}
+
+main {
+    background-color: white;
+    width: 60%;
+    margin: 2rem auto;
+}
+
+.nav, .footer {
+    width: 100%;
+    background-color: rgba(128, 191, 207, 0.705);
+    padding: 2.2rem;
+}
+
+section.port-folio {
+    width: 80%;
+    margin: auto;
+}
+
+.head {
+    width: 100%;
+    margin: 2em 0;
+}
+
+.head div {
+    width: 80%;
+    margin: .6em auto;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
+.head div > p {
+    margin: .3em;
+}
+
+section.body {
+    width: 100%;
+}
+
+section.body > div {
+    margin-bottom: 2em;
+}
+
+section.body div > h3 {
+    padding-bottom: .1em;
+    margin-bottom: .7em;
+    border-bottom: 3px solid rgba(86, 179, 202, 0.705);
+    color: rgba(2, 18, 68, 0.904);
+}
+
+section.body div > ul {
+    list-style-position: inside;
+    margin-left: 2em;
+}
+
+.experience > div {
+    margin-bottom: 1em;
+}
+
+div.skill {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+}
+
+div.skill .technical-skill, .strength-competence {
+    width: 49%;
+}
+
+.technical-skill li, .strength-competence li {
+    line-height: 180%;
+    font-size: 14px;
+}
+
+.referrence {
+    padding-bottom: 3em;
+}
+
+@media screen and (max-width: 893px) {
+    main {
+        width: 95%;
+    }
+
+    .head div {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 562px) {
+    div.skill .technical-skill, .strength-competence {
+        width: 100%;
+    }
+}
